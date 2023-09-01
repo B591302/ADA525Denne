@@ -17,7 +17,7 @@ The idea off how the robot will follow is using the webcamere. When he establish
 
 The robot will be small, my idea is to make drive using 2 wheels. The camere, arduino Rasberry pie will be inbetween the wheels.
 
-![My image Name](ADA525Denne/prototype.jpg)
+![My image Name](ADA525Denne/_posts/prototype.jpg)
 
 ^i like it, picasso
 
