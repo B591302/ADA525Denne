@@ -13,6 +13,8 @@ The idea is to make a robot that with a camere shall be able to identify a perso
 
 For the facial recognition program i will use pre made system. Where i have been looking into openCV for that purpose. 
 
+The idea off how the robot will follow is using the webcamere. When he establishes a face to follow I will want to calculate, most likely with a use of vector what direction he will drive. The idea with a use of 2 wheels and motors that he will give equal power to both wheels if he will drive straight, more to the left to turn right and more to the left one to drive left.
+
 The robot will be small, my idea is to make drive using 2 wheels. The camere, arduino Rasberry pie will be inbetween the wheels.
 
 ![My image Name](ADA525Denne/prototype.jpg)
