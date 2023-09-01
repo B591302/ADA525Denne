@@ -2,7 +2,7 @@
 layout: post
 title:  "Assignment 00"
 date:   2023-08-31 23:11:00 +0200
-#categories: jekyll update
+categories: jekyll update
 ---
 
 Assignment 00: Final project outline
@@ -21,5 +21,5 @@ The robot will be small, my idea is to have 2 wheels. The camere, arduino Rasber
 
 
 
-This prototype shows how i picture the robot itselfand how the motor, arduino, rasberry pie and the camere will be connected. 
+This prototype shows how i picture the robot itself and how the motor, arduino, rasberry pie and the camere will be connected. 
 
