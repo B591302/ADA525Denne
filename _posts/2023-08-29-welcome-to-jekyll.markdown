@@ -15,4 +15,4 @@ For the facial recognition program i will use pre made system. Where i have been
 
 The robot will be small, my idea is to make drive using 2 wheels. The camere, arduino Rasberry pie will be inbetween the wheels.
 
-![My image Name](C:\Users\halld\ADA525Denne\prototype)
+![My image Name](C:\Users\halld\ADA525Denne\prototype.jpg)
