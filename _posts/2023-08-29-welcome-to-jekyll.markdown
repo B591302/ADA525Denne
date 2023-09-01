@@ -17,7 +17,7 @@ The idea off how the robot will follow is by using the camere. When the robot es
 
 The robot will be small, my idea is to have 2 wheels. The camere, arduino Rasberry pie will be inbetween the wheels.
 
-![My image Name](\ADA525Denne\prototype.jpg)
+![Sketch](\ADA525Denne\prototype.jpg)
 
 
 
