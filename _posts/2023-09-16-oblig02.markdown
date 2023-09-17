@@ -28,10 +28,10 @@ After i had printed all of it out and added it together i notice my first mistak
 
 
 To make the stand be able to stand by itselt I knew I would make a new part to hold it up. I decided to make a part that look like a "Y" that would hold it up. I drew it in fusion and printed it out. 
-[Height](\ADA525Denne\y.jpg)
+[Height](\ADA525Denne\Y.jpg)
 
 I added it to the stand and notice that it would work like I wanted it to do but the length off the height part was to short. Therfore i needit to make one more changed lengthing that part and finish my product. 
-So i lengthened it in fusion
+
 ![Height](\ADA525Denne\standkortferdige.jpg)
 
 
