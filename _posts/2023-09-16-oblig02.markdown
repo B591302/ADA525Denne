@@ -3,7 +3,7 @@ layout: post
 title:  "Assignment 02: 3D print"
 ---
 When we got this assignment i thought that i wanted to make something that I am going to use. I decided I would make a laptop stand that would be easy to take part to take it with me. I started searching the net to find inspiration of how i would like it to be. I found a stand for sale online that I used for inspiration off how i would like to make my stand look like.
-![inspo](\ADA525Denne\prototype.jpg)  
+![inspo](\ADA525Denne\Standinspo.jpg)  
 (https://www.kjell.com/no/produkter/data/tilbehor-til-baerbar-pc/laptop-stativ/plexgear-laptopstativ-p64833) 
 
 
