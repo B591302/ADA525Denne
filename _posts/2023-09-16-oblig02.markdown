@@ -2,48 +2,52 @@
 layout: post
 title:  "Assignment 02: 3D print"
 ---
-When we got this assignment i thought that i wanted to make something that I am going to use. I decided I would make a laptop stand that would be easy to take part to take it with me. I started searching the net to find inspiration of how i would like it to be. I found a stand for sale online that I used for inspiration off how i would like to make my stand look like.
+When we received this assignment, I thought about creating something practical that I would personally use. I decided to design a portable laptop stand for myself. To gather some inspiration and ideas for its design, I began searching the internet. I came across a laptop stand available for purchase online, which I used as a reference for how I would like my stand to look.
 ![inspo](\ADA525Denne\Standinspo.jpg)  
 (https://www.kjell.com/no/produkter/data/tilbehor-til-baerbar-pc/laptop-stativ/plexgear-laptopstativ-p64833) 
 
 
-My initall idea was to make it quite similiar to this stand. After speaking to Frikk we spoke about the idea if it wouldn't be a better idea to make it with out the big plate on top. Making it therfore a bit different from the inspiration. My first sketch look like this. I knew i would have to have a bottom part, one piece to increase the height. And something to hold the laptop in place. 
+Originally, my plan was to make a laptop stand that closely mirrored the one I had seen online. But after a conversation with Frikk, we contemplated the idea of creating a stand without the large top plate. Making it therfore different from the inspiration. My first sketch looked like this. I knew I would have to include a bottom part, a single piece to increase the height, and something to hold the laptop in place. 
 ![rough draw](\ADA525Denne\standvol1.jpg) 
 
-This photo shows my first prototype. I knew i needit some way to hold the angle but i was uncertain how i wanted to do that and therfore did not sketch it at first.
+This photo displays my first prototype. I recognized the need for a way to secure the angle, but I was unsure about how I wanted to accomplish that, which is why I didn't initially include it in the sketch.
 
 
-My first sketch was drawn in fusion. Made 4 different parts the bottom, the height, a sylinder to connect them and a support beam to hold the distance between the 2 parts. 
+My initial sketch was created using Fusion 360. I divided it into four distinct parts: the bottom section, the height adjustment component, a cylinder for connecting these parts, and a support beam to maintain the distance between the two sections. 
 ![Bunn](\ADA525Denne\Bunn.jpg)
 ![Stotte](\ADA525Denne\stotte.jpg)
 ![Sylinder](\ADA525Denne\Sylinder.jpg)
 ![Height](\ADA525Denne\stand1.jpg)
 
 
-After i had printed all of it out and added it together i notice my first mistake. The spot the laptop needs to stand was to close to the bottom part and therfore the laptop can't stand on it. I knew i needit to change that part. 
+After printing and assembling all the components, I realized my first mistake. The location where the laptop needed to sit was too close to the bottom part, making it impossible for the laptop to rest on it. I recognized the need to modify that specific area.
 ![Height](\ADA525Denne\standkort.jpg)
 
 
 
 
 
-To make the stand be able to stand by itselt I knew I would make a new part to hold it up. I decided to make a part that look like a "Y" that would hold it up. I drew it in fusion and printed it out. 
+To enable the stand to stand on its own, I knew I had to create a new supporting component. I opted to design a piece resembling a "Y" shape that could provide the necessary support. I drafted this new part in Fusion 360 and then proceeded to 3D print it.
 [Height](\ADA525Denne\Y.jpg)
 
-I added it to the stand and notice that it would work like I wanted it to do but the length off the height part was to short. Therfore i needit to make one more changed lengthing that part and finish my product. 
+I attached it to the stand and noticed that it would work as I had intended. However, as I had previously observed, the length of the height adjustment part was too short. Therefore, I needed to make one more change by extending that part in order to complete my product.
 
 ![Height](\ADA525Denne\standkortferdige.jpg)
 
 
-So i lengthened it in fusion
+I proceeded to lengthen it in Fusion 360.
 ![Height](\ADA525Denne\standnyr.jpg)
 
-I did not make any change to the parameters in the slicer. I only used the default.
+I didn't make any changes to the parameters in the slicer; I stuck with the default settings.
 
-Quite happy with the end resault. I drifted away from the origanal stand. That worked well. My only problem is that it might be bit to short. Hard to make it longer when the 3D-printer has maximum 258 mm length and I am using 230mm. 
+I'm quite satisfied with the end result. It's a departure from the original stand, but it functions well. My only concern is that it might be a bit too short. It's challenging to make it longer when the 3D printer has a maximum length of 258 mm, and I'm currently using 230 mm.
 
 ![Height](\ADA525Denne\standside.jpg)
 ![Height](\ADA525Denne\standfram.jpg)
 ![Height](\ADA525Denne\Standferdige.jpg)
 
 
+Here is a GIF showing how i build the stand.
+
+
+![GIF](\ADA525Denne\ezgif.com-gif-maker.webp)
