@@ -36,7 +36,7 @@ I attached it to the stand and noticed that it would work as I had intended. How
 
 
 I proceeded to lengthen it in Fusion 360.
-![Height](\ADA525Denne\standnyr.jpg)
+![Height](\ADA525Denne\Standnyr.jpg)
 
 I didn't make any changes to the parameters in the slicer; I stuck with the default settings.
 
