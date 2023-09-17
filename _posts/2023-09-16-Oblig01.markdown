@@ -1,0 +1,16 @@
+---
+layout: post
+title:  "Assignment 01: CAD Model"
+---
+
+My project being a drivable robot by using a camere to detech face to follow after will need first formost, 4 wheels, 2 motors, web camere, a somekind of computere would htat Arduino or Rasberry Pie and some sort of battery source. The photos underneeth showing the CAD prototype drawing shows the idea how i would like to build it. Having 4 wheels attached to the base. Underneeth 2 motors on the front tiers. The computer and bettry source as the block in the middel and somekind of stand to lift up the camere.
+
+
+![final](ADA525Denne\Protypefinal1.jpg)
+![bunn](\ADA525Denne\bunn.png)
+
+I will not need any external componets. Instead i will like to 3D-print the components i need to assamble my robot. 
+
+I will be using 3D-printing to credate most of the robot. The wheels, camerestand and the base will be 3D-printed. After we have had some introducting in lazer cutting i might want to use that in making the box to hold the computer and batteries. I will decide on that later. 
+
+The mechanical movement will be used with the 2 motors. Where i will have different power on each one depending on the way it will drive. If it is going straight it would have equal, swing to the left it would have more power on the right motor and swing to the right it will have more power on the left one. 
