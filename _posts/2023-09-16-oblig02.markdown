@@ -1,0 +1,20 @@
+---
+layout: post
+title:  "Assignment 02: 3D print"
+---
+When we got this assignment i thought that i wanted to make something that I am going to use. I decided I would make a laptop stand that would be easy to take part to take it with me. I started searching the net to find inspiration of how i would like it to be. I found a stand for sale online that I used for inspiration off how i would like to make my stand look like.
+
+
+
+My initall idea was to make it quite similiar to this stand. After speaking to Frikk we spoke about the idea if it wouldn't be a better idea to make it with out the big plate on top. Making it therfore a bit different from the inspiration. My first sketch look like this. I knew i would have to have a bottom part, one piece to increase the height. And something to hold the laptop in place. 
+
+
+
+This photo shows my first prototype. I knew i needit some way to hold the angle but i was uncertain how i wanted to do that and therfore did not sketch it at first.
+
+
+My first sketch was drawn in fusion. Made 4 different parts the bottom, the height, a sylinder to connect them and a support beam to hold the distance between the 2 parts. 
+
+After i had printed all of it out and added it together i notice my first mistake. The spot the laptop needs to stand was to close to the bottom part and therfore the laptop can't stand on it. I knew i needit to change that part. 
+
+To make the stand be able to stand by itselt I knew I would make a new part to hold it up. I decided to make a part that look like a "Y" that would hold it up. I drew it in fusion and printed it out. 
