@@ -28,7 +28,7 @@ After printing and assembling all the components, I realized my first mistake. T
 
 
 To enable the stand to stand on its own, I knew I had to create a new supporting component. I opted to design a piece resembling a "Y" shape that could provide the necessary support. I drafted this new part in Fusion 360 and then proceeded to 3D print it.
-[Height](\ADA525Denne\Y.jpg)
+![Height](\ADA525Denne\Y.jpg)
 
 I attached it to the stand and noticed that it would work as I had intended. However, as I had previously observed, the length of the height adjustment part was too short. Therefore, I needed to make one more change by extending that part in order to complete my product.
 
