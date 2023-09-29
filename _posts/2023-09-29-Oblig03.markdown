@@ -4,15 +4,23 @@ title:  "Assignment 03: Lazer cut part"
 ---
 
 
-This assignment has us making a box, no bigger then 100x100x100mm that needs to stick together by using finger joints and no glue. The idea behind this task is to understand the kerf that accours while using a lazer cutter. Kerf is the material that the lazer burns away while cutting. It ranges from 0.08-1mm depending on the material.
+This assignment challenges us to craft a box with dimensions not exceeding 100x100x100mm, relying solely on finger joints for assembly without the use of any adhesive. The core concept behind this task is to gain insights into the impact of laser cutter-induced kerf, which is the material removed during cutting. The magnitude of this kerf can vary from 0.08mm to 1mm, contingent on the material being worked with.
 
-I started by drawing in Fusion one of the sides. I quikcly found out that i needit to make 3 different shapes and print all of them twice to make a 6 side box. My first iteration I made a box size of 55x55x55mm. Our TA told us the kerf was 0.025 mm. I had read on cutlasercut.com that the kerf for 3mm plywood was 0.2mm. But i decided to listen to the TA instead. So i made the 3 sides with the measuerments on the photo beneth.
+I began the project by creating a design for one of the box's sides using Fusion 360. Quickly, I realized that I needed to create three distinct shapes, each of which would be duplicated to assemble the six sides of the box. Initially, I set the dimensions for the box at 55x55x55mm. Our teaching assistant (TA) informed us that the kerf for our laser cutter was 0.025mm. Although I had read on cutlasercut.com that the kerf for 3mm plywood was 0.2mm, I decided to follow our TA's guidance. Consequently, I designed the three sides using the measurements depicted in the image below.
+
 ![final](\ADA525Denne\box1.png)
-As shown in the photo beneth my therory was that the kerf would have to be divided by 2 because it cuts on both sides. 
+
+As illustrated in the image below, my working hypothesis was that the kerf would need to be halved since the laser cutter removes material on both sides during the cutting process.
+
 ![bunn](\ADA525Denne\box12.png)
+
+This approach seemed logical, considering that the laser cutter's operation entails material removal from both the left and right sides of the cutting path.
+
 The box was able to stand, but the lazer cut to much of the material off. Making it unable to stick together. 
+
 ![bunn](\ADA525Denne\box1feil.jpg)
-So when i did the next iteration i decided to increse my theory off how big the kerf is. I increased it to being 0.1mm, and used the same idea to divided by 2 for each side. I drew the box on auto pilot and made a mistake in the amount of joints. But it did not matter that i made that mistake cause it still was incorrect kerf. To big of an error to be able to make it stick together, but almost to small to see thorugh it. I concluded that i was going in the right direction but it was not good enough.
+
+In my subsequent iteration, I decided to make a significant adjustment to my approach by assuming a larger kerf of 0.1mm and still applying the concept of halving it for each side. While creating the box, I mistakenly miscounted the number of joints. Nevertheless, the increased kerf size turned out to be a problem. It was substantial enough to hinder proper assembly, making it challenging to ensure the pieces would stick together securely. However, it was also nearly impossible to see thorugh the joints. This led me to the conclusion that while I was moving in the right direction, my adjustments were still not precise enough to achieve the desired result.
 
 I noticed that I was going closer to the 0.2mm that i had discovered on the cutlasercut.com. I decided to use that. Drew the 3 different sides in fusion. 
 
@@ -20,36 +28,15 @@ I noticed that I was going closer to the 0.2mm that i had discovered on the cutl
 ![bunn](\ADA525Denne\side2.png)
 ![bunn](\ADA525Denne\toppbunn.png)
 
-This time it worked perfectly. The box is strong and steady holding together by usin the finger joint 
+This time it worked perfectly. The box is strong and steady holding together by using the finger joint.
+
 ![bunn](\ADA525Denne\boxferdige.jpg)
 
 So my conclusion is that the kerf while using 3mm plywood is 0.2mm same as cutlasercut.com said.
 
-Lasercut technology is quite beneficial in making prototype fast and precise. If you can make it in 2 dimensional using and using fingerjoints you are able to make your prototype faster. Another benefit is using differnet material. In this class we have learned about 3D printing, but we have only used plastic there. Can use more versitial material with a laser. 
+Laser cutting technology offers several advantages for rapid and precise prototyping. When working with two-dimensional designs and employing finger joints, the process becomes notably faster and highly accurate. Additionally, laser cutting provides the flexibility to work with a wide range of materials beyond plastic, which is typically used in 3D printing. This versatility allows for the exploration of different material properties and characteristics, expanding the creative possibilities in the prototyping process
 
-I can potentially use the laser for my final project. What i would like to use it for is rapid iterasjons for the prototype. Testing if the part i am making fits, and works in the way i want it to. I can se for me the base of the robot and the "house" holding the microcontroller, batteries etc can be in protected enviorment by being build over. 
+I'm considering utilizing a laser cutter for my final project, with the primary aim of facilitating rapid iterations in the prototype development phase. This approach will enable me to efficiently assess the fit and functionality of various components, ensuring they align with my project objectives. Specifically, I envision employing the laser cutter to craft the robot's base and a protective enclosure for housing essential components like the microcontroller and batteries.
 
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
+I googled kerf in the start off the assignment to get better uderstandin off it. Therfore I found this page that I used as source:
 https://cutlasercut.com/drawing-resources/expert-tips/laser-kerf/#:~:text=in%20a%20drawing-,What%20does%20laser%20kerf%20mean%3F,experienced%20when%20cutting%20thicker%20foams.
