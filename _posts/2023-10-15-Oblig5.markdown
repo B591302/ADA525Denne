@@ -1,0 +1,15 @@
+---
+layout: post
+title:  "Assignment 05: Prototype 1"
+---
+
+I did not complete making a prototype this week. The reason for that was I had to change my approach to the robot. I got sugested to instead off making a movable robot I would make a robot that would follow with the camere and not by driving. That would make it easier in the project. Having it stationary I would have a power source with a cable. Therfore I would not have to think about how I would like to power my motors.
+
+I decided to stick to a drivable robot. I think that is alot more exciting project. What I used this week for was more about how would I like to solve the different part of the project and getting more know to the hardware. 
+
+For the robot my plan is to make a minimum viable product (MVP) that will fix all the logical problems. The camere, facial recognition software, power, the robot it self and motors.
+
+With that MVP i have planned to not put any form off battery on the car. Rather, in the start use a power cable power it. The facial recognition software will be loaded onto a rasberry pie. I will look into the motors with Frigg next week. At last decide on what kind of camere i will want to use. 
+
+What I am missing and is my next step is to get the parts I will need for the robot and build the prototype. Get the software working on the Rassberry pie. 
+
