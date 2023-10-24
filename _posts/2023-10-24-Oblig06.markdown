@@ -28,7 +28,7 @@ My goal in this assignment was to utilize my webcam to detect the presence of a 
 
 I had watched a video that mentioned it could take 1-2 hours to download the package. After waiting for an hour, I decided to investigate further. That's when I discovered that many others had experienced the same issue. What I needed to do was download an earlier version of the OpenCV package. Finally, that solution worked.
 
-![jpg]!(\ADA525Denne\bilde3.jpg)
+![jpg](\ADA525Denne\bilde3.jpg)
 
 At last, I believed I could begin coding the output and interacting with the microcontroller. However, I encountered a new issue when I attempted to run the Python script; it was having problems with the file directory. After spending approximately an hour debugging the issue, I realized that I had spent enough time troubleshooting for one day.
 
@@ -41,7 +41,7 @@ Fortunately, it wasn't a complete waste of time because I was able to make progr
 Earlier this week, I had some time to test the hardware I had and confirm that my Onion Omega, similar to an Arduino, was still functional. I set up a simple experiment using a button: when it was pushed, it would illuminate a bulb.
 
 
-![GIF]!(\ADA525Denne\ezgif.com-video-to-gif.gif)
+![GIF](\ADA525Denne\ezgif.com-video-to-gif.gif)
 
 
 
