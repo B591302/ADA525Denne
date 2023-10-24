@@ -1,0 +1,48 @@
+---
+layout: post
+title:  "Assignment 06: Input-Output"
+---
+
+
+This assignment involved using a microcontroller to receive an input, measure the data, and use that data to generate an output.
+
+I wanted to use this assignment to develop a component for my final project.
+
+Initially, my goal was to make the Raspberry Pi microcontroller functional. To begin, I downloaded the Raspberry Pi OS onto my laptop and transferred it to an SD card using the Raspberry Pi image. Then, I booted up the Raspberry Pi and used an on-screen keyboard and computer mouse to navigate the microcontroller.
+
+The first thing I wanted to do was establish an SSH connection between my laptop and the Raspberry Pi. To do that, I needed to set up three things: a WiFi connection, enable SSH from the microcontroller, and configure the time and date on the Raspberry Pi. These tasks turned out to be more complex than anticipated, requiring significant time and effort from both myself and the teacher.
+
+First, I tackled the issue of setting up the Wi-Fi connection. I initially used the guest Wi-Fi at school because the Raspberry Pi couldn't access Eduroam. With guidance from my teacher, I learned how to bypass this limitation by defining the connection within the file itself, rather than using the GUI. This process consumed a considerable amount of time. Once I had the internet up and running, configuring the correct time to enable the SSH connection became more straightforward. I used this guide as a reference for connecting to Eduroam: [https://inrg.engineering.ucsc.edu/howto-connect-raspberry-to-eduroam/]. The reason for needing an Eduroam connection was the necessity for both machines to be on the same network to establish the SSH connection.
+
+Setting up SSH proved to be much more challenging. Initially, I encountered Wi-Fi connectivity issues with the Raspberry Pi in the lab. I needed to enable SSH on my Raspberry Pi, and I intended to establish the connection using the Visual Studio Code (VSCode) remote controller. However, I faced some diffulities in the lab. I attempted different IP addresses, changed the hostname, password, and even rebooted the Raspberry Pi multiple times, but it still refused to connect. Although I could ping the Raspberry Pi, the connection was unstable. After hours of debugging, I made the decision to update the Raspberry Pi and relocate to a different location with better connectivity. In the school's 'læringslab,' one of the employees informed me that Eduroam's performance can vary depending on the location within the school.
+
+After relocating to another lab, I obtained a more stable Wi-Fi connection. I proceeded to update the Raspberry Pi's software. Then, I recalled that during the previous semester when I had worked with servers, I had created a file containing host information. I located that file and updated it with the Raspberry Pi's IP address and hostname. After long five hours, I finally managed to establish an SSH connection from my laptop using VSCode to access the Raspberry Pi. To verify its functionality, I created a file in the home directory on my Raspberry Pi from VSCode on my laptop.
+
+![jpg](\ADA525Denne\bilde1.jpg)
+
+Now that i was able to work on my laptop, I aimed to use VSCode to execute my program on the Raspberry Pi. I created a new workspace on the Raspberry Pi, attempted to run my script, but encountered an error. The issue arose because I needed to have Python installed on my Raspberry Pi. I installed Python using pip, but I encountered a new error because I was missing a required package for my script.
+
+My goal in this assignment was to utilize my webcam to detect the presence of a face. If a face was detected, I intended to trigger some form of output, with a simple LED light as my initial idea, which I planned to integrate into my final project. For facial recognition, I used OpenCV as the software. Initially, I attempted to download it using pip. However, the process took a considerable amount of time and became stuck at "Building wheel for opencv-python".
+
+![jpg](\ADA525Denne\bilde2.jpg)
+
+I had watched a video that mentioned it could take 1-2 hours to download the package. After waiting for an hour, I decided to investigate further. That's when I discovered that many others had experienced the same issue. What I needed to do was download an earlier version of the OpenCV package. Finally, that solution worked.
+
+![jpg]!(\ADA525Denne\bilde3.jpg)
+
+At last, I believed I could begin coding the output and interacting with the microcontroller. However, I encountered a new issue when I attempted to run the Python script; it was having problems with the file directory. After spending approximately an hour debugging the issue, I realized that I had spent enough time troubleshooting for one day.
+
+I've created a script on my computer that can detect faces using the camera and sets a boolean value to 'true' when a face is detected. However, I was unable to test it on my Raspberry Pi.
+
+I was unable to complete the input and output assignment due to illness and assignment of another class, which made it challenging to finish on time.
+
+Fortunately, it wasn't a complete waste of time because I was able to make progress in my final project. Input, measurement, and output are crucial aspects that I'll be using in my final project. I plan to complete this task in the next couple of days. Originally, my goal was to measure data using my webcam to detect the presence of a face and trigger a light bulb accordingly. Now, I will shift my focus towards creating a vector with the camera and powering motors instead.
+
+Earlier this week, I had some time to test the hardware I had and confirm that my Onion Omega, similar to an Arduino, was still functional. I set up a simple experiment using a button: when it was pushed, it would illuminate a bulb.
+
+
+![GIF]!(\ADA525Denne\ezgif.com-video-to-gif.gif)
+
+
+
+
