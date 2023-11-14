@@ -1,0 +1,106 @@
+---
+layout: post
+title:  "Assignment 07: web interface server -> client"
+---
+
+The assignment this week was to make a web application that hosts a web interface. The web interface needs to be able to pull data from server using HTTP get request. This assignment uses dummy data that will have to be sent evrey 10 seconds and vizualized with use of libraries, such as Chars.js. 
+
+To make this application I though to myself that i need it 3 difference files. Node file to host the server. In that file i would need to have the information to host the server, as well as the data i need ut to send. The second node file would be a client side. The client side would have to get the data from the server and update the graph. The last file index.html would be the necessery html file to make it into a web application. 
+
+'''// server.js
+//importere express
+const express = require('express');
+//lager en express app
+const app = express();
+//sette port name
+const port = 3000;
+//Lager peker mot static filene mine i public folderen.
+app.use(express.static('public'));
+
+
+app.get('/data', (req, res) => {
+    //Lager nye punkt
+    const dataPoints = Math.floor(Math.random() * 100);
+
+    //json responsen min med datapoints. 
+    res.json({ success: true, data: dataPoints });
+});
+
+
+//starter serveren på localhost:3000
+app.listen(port, () => {
+    console.log(`Server is running on http://localhost:${port}`);
+});
+'''
+'''
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Data Visualization</title>
+  <!-- Legger till chart library -->
+  <script src="https://cdn.jsdelivr.net/npm/chart.js"></script>
+</head>
+<body>
+  <!-- Definere grafen på siden -->
+  <canvas id="myChart" width="400" height="200"></canvas>
+  <!-- includere client.js -->
+  <script src="client.js"></script>
+</body>
+</html>
+'''
+'''
+// client.js
+
+let dataPoints = [];
+// function for å hente inn data
+async function hentData() {
+    const response = await fetch('/data');
+    const result = await response.json();
+    return result.data;
+}
+
+// initialere charten
+const ctx = document.getElementById('myChart').getContext('2d');
+const myChart = new Chart(ctx, {
+    type: 'line',
+    data: {
+        labels: [],
+        datasets: [{
+            label: 'Random Data',
+            data: [],
+            backgroundColor: 'rgba(75, 192, 192, 0.2)',
+            borderColor: 'rgba(75, 192, 192, 1)',
+            borderWidth: 1
+        }]
+    },
+    options: {
+        scales: {
+            y: {
+                beginAtZero: true
+            }
+        }
+    }
+});
+
+
+// oppdtare grafen
+async function updateGraf() {
+    const newDataPoint = await hentData();
+
+    // Legger til nye punkt i arryeb
+    dataPoints.push(newDataPoint);
+
+    // Oppdatere charten med nye punkt
+    myChart.data.labels = Array.from({ length: dataPoints.length }, (_, i) => i + 1);
+    myChart.data.datasets[0].data = dataPoints;
+    myChart.update();
+
+    // Oppdatere hvert 5 sekund
+    setTimeout(updateGraf, 5000);
+}
+
+// Oppdatere
+updateGraf();
+'''
