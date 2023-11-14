@@ -5,7 +5,9 @@ title:  "Assignment 07: web interface server -> client"
 
 The assignment this week was to make a web application that hosts a web interface. The web interface needs to be able to pull data from server using HTTP get request. This assignment uses dummy data that will have to be sent evrey 10 seconds and vizualized with use of libraries, such as Chars.js. 
 
-To make this application I though to myself that i need it 3 difference files. Node file to host the server. In that file i would need to have the information to host the server, as well as the data i need ut to send. The second node file would be a client side. The client side would have to get the data from the server and update the graph. The last file index.html would be the necessery html file to make it into a web application. 
+
+
+My process in making this application is that I though to myself that i need it 3 difference files. Node file to host the server. In that file i would need to have the information to host the server, as well as the data i need ut to send. The second node file would be a client side. The client side would have to get the data from the server and update the graph. The last file index.html would be the necessery html file to make it into a web application. 
 
 '''// server.js
 //importere express
@@ -30,10 +32,10 @@ app.get('/data', (req, res) => {
 //starter serveren på localhost:3000
 app.listen(port, () => {
     console.log(`Server is running on http://localhost:${port}`);
-});
-'''
-'''
-<!DOCTYPE html>
+});'''
+
+
+'''<!DOCTYPE html>
 <html lang="en">
 <head>
   <meta charset="UTF-8">
@@ -48,10 +50,9 @@ app.listen(port, () => {
   <!-- includere client.js -->
   <script src="client.js"></script>
 </body>
-</html>
-'''
-'''
-// client.js
+</html>'''
+
+'''// client.js
 
 let dataPoints = [];
 // function for å hente inn data
@@ -102,5 +103,7 @@ async function updateGraf() {
 }
 
 // Oppdatere
-updateGraf();
-'''
+updateGraf();'''
+
+
+The server side defines the info about the server. 
