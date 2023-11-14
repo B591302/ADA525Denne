@@ -3,21 +3,24 @@ layout: post
 title:  "Assignment 07: web interface server -> client"
 ---
 
-The assignment this week was to make a web application that hosts a web interface. The web interface needs to be able to pull data from server using HTTP get request. This assignment uses dummy data that will have to be sent evrey 10 seconds and vizualized with use of libraries, such as Chars.js. 
+
+The assignment this week was to create a web application hosting a web interface. The interface should be capable of retrieving data from the server using HTTP GET requests. The assignment involves sending dummy data every 10 less seconds, which should then be visualized using libraries like Chart.js.
 
 
+In the process of creating this application, I initially considered the need for three different files. The first file is a Node file responsible for hosting the server. This file should contain information for server hosting and the data that needs to be sent. The second Node file is dedicated to the client side, which is tasked with fetching data from the server and updating the graph accordingly. The last file, index.html, serves as the necessary HTML file to transform it into a web application.
 
-My process in making this application is that I though to myself that i need it 3 difference files. Node file to host the server. In that file i would need to have the information to host the server, as well as the data i need ut to send. The second node file would be a client side. The client side would have to get the data from the server and update the graph. The last file index.html would be the necessery html file to make it into a web application. 
-
-![server](\ADA525Denne\server.png)  
+![server](\ADA525Denne\serverjs.png)  
 ![index](\ADA525Denne\index.png)  
 ![client1](\ADA525Denne\client1.png)  
-![client2](\ADA525Denne\client2.png)  
+![client2](\ADA525Denne\client2.png) 
+
+Results: 
+![result](\ADA525Denne\result.png) 
 
 
-The server side defines the info about the server as well as crates fake data that will be able to plot. 
-The client side collects the data and plot the graph.
-The index.html makes the web page.
+With the Chart.js library, I am able to visualize the data from the server, updating the graph every 5 seconds.
 
+
+With my solution, I can generate random data and host the server with HTTP GET requests. I then plot the data on the web page using a graph on the client side. This experience has provided me with an understanding of simple GET requests and client-server connections, serving as a starting point for learning how to host information online. For my final project, I plan to host information related to whether the camera detects a face, the camera's location, and the motor changes. The intention behind sharing this data is to aid in troubleshooting my code and improving the accuracy of face detection.
 
 
