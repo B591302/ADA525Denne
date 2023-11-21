@@ -1,0 +1,50 @@
+---
+layout: post
+title:  "Assignment 07: web interface, thing -> server -> client"
+---
+
+
+
+This assignment builds on Assignment Seven, where, instead of plotting random data, I need to access data given from my Arduino and post it on my website.
+
+
+Before I started, I theorized what data I would like to display on a website. After reviewing my own setup, my conclusion is that in the final project, I will most likely not have a website. The reason is that, in theory, I can plot three different types of data: the video feed from the camera, the way the motor spins, or whether the camera has centralized on a face. But there are som problems with actually doint it. 
+
+
+I managed to plot the moter by serially connecting the Arduino to my computer and sending 1 or -1, depending on which way it turns. The problem with this approach in my final project is that it would require serial connection through my Raspberry Pi, and I would rather focus on sending information to the Arduino to control its spin than on receiving the data.
+
+
+Using the Raspberry Pi to send the video feed or information about the vector where the camera needs to spin could be an option I can explore. The issue is that my Raspberry Pi doesn't have an internet connection, only an SSH connection from my computer to change the code. I tried sending data over SSH but encountered quite a few problems. If time permits, I might revisit this if the Raspberry Pi gets a WiFi connection. If I can send data either via SSH or WiFi, I would consider plotting information about the position the camera needs to go to and whether it finds it.
+
+
+Therefore, in this assignment, I decided to keep it simple and use a serial connection from the Arduino to indicate how it turns.
+
+I built upon the previous assignment and used the Chart.js library again.
+
+The arduino code:
+
+![arduino](\ADA525Denne\arduino.png)  
+
+Simpel program to randomize the arduino to give a direction to go.
+
+The server:
+![server](\ADA525Denne\serverjsoblig08.png)  
+
+The HTML:
+![index](\ADA525Denne\html1.png)  
+![index](\ADA525Denne\html2.png)  
+
+
+The result:
+My server gives me the result of the way the motor turns.
+![index](\ADA525Denne\terminal08.png)  
+
+The plottet data:
+
+![index](\ADA525Denne\oblig08.png)  
+
+
+
+This solution utilizes a serial connection to the Arduino to plot information from the Arduino on a webpage. I acknowledge that a graph might not be the most efficient way to display this data, but due to the excessive time spent establishing the serial connection, I decided not to complicate the assignment further, especially given the uncertainty of its use in the final project. The reason for the extensive time spent on the serial connection was that my USB connection between the Arduino and the computer did not function properly. Initially, I thought it worked, but it turned out to be only providing power. 
+
+
