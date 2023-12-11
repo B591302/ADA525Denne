@@ -1,0 +1,5 @@
+---
+layout: post
+title:  "Video off system"
+---
+![GIF](\ADA525Denne\ezgif.com-video-to-gif.mp4)
